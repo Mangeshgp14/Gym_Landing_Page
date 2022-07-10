@@ -1,0 +1,82 @@
+body{
+  color: white;
+  margin : 0;
+  padding: 0;
+ 
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/297/176/989/muscle-man-gym-bodybuilder-wallpaper-preview.jpg');
+  background-size: cover;
+}
+
+.left
+{
+display: inline-block;
+
+position: absolute;
+left: 34px;
+top: 34px;
+text-align: center;
+
+}
+
+.left p 
+{
+  font-family: 'Baloo Bhai';
+  font-size: 30px;
+}
+
+.mid
+{
+  display: block;
+  text-align: center;
+  width: 40%;
+  margin : 34px auto
+
+
+}
+
+.right
+{
+  display: inline-block;
+  
+  position: absolute;
+  right: 34px;
+  top: 44px;
+
+}
+
+.navbar
+{
+  display: inline-block;
+}
+
+li{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding-right: 40px;
+  font-size: 25px;
+  font-family: 'Baloo Bhai';
+  cursor: pointer;
+}
+
+li:hover
+{
+  color :yellowgreen
+}
+
+.left img{
+  
+  height: 150px;
+  width : 250px;
+}
+
+.right button
+{
+  font-family: 'Baloo Bhai';
+  font-size: 20px;
+  padding : 4px 14px;
+  color: white;
+  background-color: rgb(27, 25, 25);
+  border-radius: 10px;
+  cursor: pointer;
+}
