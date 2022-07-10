@@ -80,3 +80,14 @@ li:hover
   border-radius: 10px;
   cursor: pointer;
 }
+
+.right button:hover {
+  font-family: 'Baloo Bhai';
+  font-size: 20px;
+  padding : 4px 14px;
+  color: yellow;
+  background-color: rgb(27, 25, 25);
+  border-radius: 10px;
+  cursor: pointer;
+
+}
